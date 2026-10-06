@@ -1,0 +1,7 @@
+COCO 2017 val subset: 39 images, 5 classes (person, car, dog, chair, cup)
+images: 39, annotations: 131
+chair: 5
+car: 34
+person: 88
+cup: 3
+dog: 1
