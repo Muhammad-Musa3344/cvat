@@ -1,0 +1,1 @@
+﻿[{"label":"person","count":96},{"label":"car","count":35},{"label":"chair","count":5},{"label":"cup","count":3},{"label":"dog","count":1}]
