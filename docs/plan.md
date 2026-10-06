@@ -40,3 +40,12 @@ layer, so they would need new infrastructure. I prefer finishing 1-7 with
 
 evidence over a rushed, broken extension.
 
+
+## Decision record
+- Taken: per-request database aggregate (values + annotate Count) on LabeledShape.
+- Rejected: cached counters, because they must be invalidated on every annotation save.
+- Cost of rejecting: every request rescans the shapes. Fine at 131 shapes, slower on large tasks.
+
+## What changed from the plan
+- A CRLF line-ending problem crashed the import worker and cost time.
+- Items 8 and 9 (WebSocket) were skipped.
