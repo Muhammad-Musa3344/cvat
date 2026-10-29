@@ -40,7 +40,7 @@ Branch: dev-test01. Started: <time>. Deadline: <time + 8h>.
 
 \- Counting scope: <shapes only, or shapes + tracks + tags>, because <reason>.
 
-
+(500 images, 3541 annotations in the file, 3953 shapes imported). In the same file fill the counting-scope blank: shapes only (LabeledShape), because the sample data is images with polygons and masks and the verified baseline is the shape table; tags and tracks are not counted and this is stated in the response
 
 \## Decision record
 
